@@ -1,4 +1,4 @@
-package bfs.programmers;
+package bfsdfs.bfs.programmers;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
@@ -15,14 +15,11 @@ public class Main_경주로건설 {
 //        }));
 
         System.out.println(new Solution().solution(new int[][]{
-                {0, 0, 0, 0, 0, 0, 0, 0},
-                {1, 0, 1, 1, 1, 1, 1, 0},
-                {1, 0, 0, 1, 0, 0, 0, 0},
-                {1, 1, 0, 0, 0, 1, 1, 1},
-                {1, 1, 1, 1, 0, 0, 0, 0},
-                {1, 1, 1, 1, 1, 1, 1, 0},
-                {1, 1, 1, 1, 1, 1, 1, 0},
-                {1, 1, 1, 1, 1, 1, 1, 0}
+                {0, 1, 0, 1, 0},
+                {0, 1, 0, 0, 0},
+                {0, 0, 0, 1, 0},
+                {1, 0, 0, 1, 0},
+                {1, 1, 1, 0, 0}
         }));
 
     }
@@ -81,11 +78,10 @@ public class Main_경주로건설 {
             while (!q.isEmpty()) {
                 Info pos = q.poll();
                 if (minVisitedPriceWithDirection[pos.d][pos.r][pos.c] <= pos.price) continue;
-                minVisitedPriceWithDirection[pos.d][pos.r][pos.c] = pos.price;
+                    minVisitedPriceWithDirection[pos.d][pos.r][pos.c] = pos.price;
 
                 if (pos.r == n - 1 && pos.c == n - 1) {
                     answer = Integer.min(answer, pos.price);
-                    continue;
                 }
 
                 for (int d = 0; d < 4; d++) {

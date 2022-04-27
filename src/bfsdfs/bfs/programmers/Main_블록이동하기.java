@@ -1,4 +1,4 @@
-package bfs.programmers;
+package bfsdfs.bfs.programmers;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
