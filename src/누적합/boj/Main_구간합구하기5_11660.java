@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
+import java.util.stream.Stream;
 
 import static java.lang.Integer.parseInt;
 
@@ -39,4 +40,6 @@ public class Main_구간합구하기5_11660 {
         }
         System.out.print(sb);
     }
+
+
 }
