@@ -5,13 +5,13 @@ public class Main_코딩테스트공부 {
 	public static void main(String[] args) {
 
 		System.out.println(new Solution().solution(10, 10, new int[][] {{10, 15, 2, 1, 2}, {20, 20, 3, 3, 4}}));
-//		System.out.println(new Solution().solution(0, 0, new int[][] {{0, 0, 2, 1, 2}, {4, 5, 3, 1, 2}, {4, 11, 4, 0, 2}, {10, 4, 0, 4, 2}}));
-//		System.out.println(new Solution().solution(19, 19, new int[][] {{20,20,1,1,100},{19,19,200,200,1}}));
-//		System.out.println(new Solution().solution(15, 15, new int[][] {{20,20,1,1,100},{19,19,200,4,1}}));
-//		System.out.println(new Solution().solution(15, 15, new int[][] {{20,20,1,1,100},{19,19,200,10,1}}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(0, 0, new int[][] {{0, 0, 2, 1, 2}, {4, 5, 3, 1, 2}, {4, 11, 4, 0, 2}, {10, 4, 0, 4, 2}}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(19, 19, new int[][] {{20,20,1,1,100},{19,19,200,200,1}}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(15, 15, new int[][] {{20,20,1,1,100},{19,19,200,4,1}}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(15, 15, new int[][] {{20,20,1,1,100},{19,19,200,10,1}}));
 
-//		System.out.println(new Solution().solution(15, 15, new int[][] {{20, 20, 1, 1, 100}, {17, 10, 3, 10, 1}}));
-//		System.out.println(new Solution().solution(15, 15, new int[][] {{19, 20, 1, 1, 100}, {17, 10, 3, 10, 1}}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(15, 15, new int[][] {{20, 20, 1, 1, 100}, {17, 10, 3, 10, 1}}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(15, 15, new int[][] {{19, 20, 1, 1, 100}, {17, 10, 3, 10, 1}}));
 	}
 
 	static class Solution {

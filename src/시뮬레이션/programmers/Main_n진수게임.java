@@ -9,7 +9,7 @@ public class Main_n진수게임 {
         System.out.println(new Solution().solution(16, 16, 2, 1));
         System.out.println(new Solution().solution(16, 16, 2, 2));
 
-//        System.out.println(new Solution().solution(2, 4, 2, 1));
+//        System.out.println(new 이분탐색.boj.Solution().solution(2, 4, 2, 1));
     }
 
     static class Solution {

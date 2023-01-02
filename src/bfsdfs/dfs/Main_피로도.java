@@ -3,7 +3,7 @@ package bfsdfs.dfs;
 public class Main_피로도 {
 
     public static void main(String[] args) {
-        System.out.println("answer : " +
+        System.out.println("이분탐색.boj.getAnswer : " +
                 new Solution().solution(80, new int[][]{
                         {80, 20}, {50, 40}, {30, 1}
                 }));

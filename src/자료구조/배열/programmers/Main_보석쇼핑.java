@@ -9,19 +9,19 @@ import java.util.stream.Collectors;
 public class Main_보석쇼핑 {
 
     public static void main(String[] args) {
-//        System.out.println(Arrays.toString(new Solution().solution(new String[]
+//        System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(new String[]
 //                // 0     1         2     3      4       5           6           7
 //                {"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"})));
 //
-//        System.out.println(Arrays.toString(new Solution().solution(new String[]
+//        System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(new String[]
 //                //    0,   1,   2 ,  3,   4,  5 ,   6,   7   8    9    10   11    12
 //                {"D", "R", "A", "A", "A", "A", "A", "A", "R", "C", "D", "A", "A"})));
 //
-//        System.out.println(Arrays.toString(new Solution().solution(new String[]
+//        System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(new String[]
 ////                0,   1,   2   3      4   5   6
 //                {"A", "A", "A", "B", "A", "A", "A"})));
 //
-//        System.out.println(Arrays.toString(new Solution().solution(new String[]
+//        System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(new String[]
 //                //    0,   1,
 //                {"A", "B", "A"})));
 
@@ -29,7 +29,7 @@ public class Main_보석쇼핑 {
             //    0,   1,  2,  3,   4
                 {"A", "B", "C", "D" ,"E"})));
 
-//        System.out.println(Arrays.toString(new Solution().solution(new String[]
+//        System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(new String[]
 //                //    0,   1,
 //                {"AA", "AB", "AC", "AA", "AC"})));
     }

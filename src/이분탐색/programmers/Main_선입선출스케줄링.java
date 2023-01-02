@@ -7,7 +7,7 @@ public class Main_선입선출스케줄링 {
 		System.out.println(new Solution().solution(3, new int[] {1, 2, 3}));
 	}
 
-//	static class Solution {
+//	static class 이분탐색.boj.Solution {
 //		public int solution(int n, int[] cores) {
 //
 //			int lo = 0;

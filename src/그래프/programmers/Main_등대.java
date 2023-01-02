@@ -12,7 +12,7 @@ public class Main_등대 {
 	public static void main(String[] args) {
 
 
-//		System.out.println(new Solution().solution(8, new int[][] {
+//		System.out.println(new 이분탐색.boj.Solution().solution(8, new int[][] {
 //				{1, 2}, {1, 3}, {1, 4}, {1, 5}, {5, 6}, {5, 7}, {5, 8}
 //		}));
 //

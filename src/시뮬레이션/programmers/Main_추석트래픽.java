@@ -14,7 +14,7 @@ public class Main_추석트래픽 {
 
     public static void main(String[] args) {
 //        System.out.println(
-//                new Solution().solution(new String[]
+//                new 이분탐색.boj.Solution().solution(new String[]
 //                        {"2016-09-15 20:59:57.421 0.351s",
 //                                "2016-09-15 20:59:58.233 1.181s",
 //                                "2016-09-15 20:59:58.299 0.8s",
