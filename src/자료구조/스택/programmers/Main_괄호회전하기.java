@@ -14,7 +14,7 @@ public class Main_괄호회전하기 {
 		System.out.println(new Solution().solution("[](){}"));
 		System.out.println(new Solution().solution("}]()[{"));
 		System.out.println(new Solution().solution("[)(]"));
-//		System.out.println(new Solution().solution("(){[()]}]["));
+//		System.out.println(new 이분탐색.boj.Solution().solution("(){[()]}]["));
 
 	}
 

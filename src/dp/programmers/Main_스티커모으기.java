@@ -7,8 +7,8 @@ public class Main_스티커모으기 {
 
 
     public static void main(String[] args) {
-//        System.out.println(new Solution().solution(new int[] {14, 6, 5, 11, 3, 9, 2, 10}));
-//        System.out.println(new Solution().solution(new int[] {1, 3, 2, 5, 4}));
+//        System.out.println(new 이분탐색.boj.Solution().solution(new int[] {14, 6, 5, 11, 3, 9, 2, 10}));
+//        System.out.println(new 이분탐색.boj.Solution().solution(new int[] {1, 3, 2, 5, 4}));
         System.out.println(new Solution().solution(new int[]{1, 100, 1, 2, 300, 1}));
         System.out.println(new Solution().solution(new int[]{100, 1, 2, 300, 1, 1}));
         System.out.println(new Solution().solution(new int[]{1, 2, 300, 1, 1, 100}));

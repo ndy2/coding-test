@@ -8,7 +8,7 @@ public class Main_경주로건설 {
 
     public static void main(String[] args) {
 
-//        System.out.println(new Solution().solution(new int[][]{
+//        System.out.println(new 이분탐색.boj.Solution().solution(new int[][]{
 //                {0, 0, 0},
 //                {0, 0, 0},
 //                {0, 0, 0}

@@ -4,7 +4,7 @@ public class Main_가장큰정사각형찾기 {
 
     public static void main(String[] args) {
 //        System.out.println(
-//                new Solution().solution(new int[][]{
+//                new 이분탐색.boj.Solution().solution(new int[][]{
 //                        {0, 1, 1, 1},
 //                        {1, 1, 1, 1},
 //                        {1, 1, 1, 1},
@@ -13,7 +13,7 @@ public class Main_가장큰정사각형찾기 {
 //        );
 
 //        System.out.println(
-//                new Solution().solution(new int[][]{
+//                new 이분탐색.boj.Solution().solution(new int[][]{
 //                        {1, 1, 1, 1},
 //                        {0, 0, 1, 1}
 //                })

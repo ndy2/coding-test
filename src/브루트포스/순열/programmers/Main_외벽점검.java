@@ -11,7 +11,7 @@ public class Main_외벽점검 {
     public static void main(String[] args) {
         System.out.println(new Solution().solution(12, new int[]{1, 3, 4, 9, 10}, new int[]{3, 5, 7}));
 
-//        System.out.println(new Solution().solution(12, new int[]{2, 4, 6, 8}, new int[]{1, 1, 1, 1}));
+//        System.out.println(new 이분탐색.boj.Solution().solution(12, new int[]{2, 4, 6, 8}, new int[]{1, 1, 1, 1}));
     }
 
     static class Solution {

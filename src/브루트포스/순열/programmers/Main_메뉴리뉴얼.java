@@ -30,7 +30,7 @@ public class Main_메뉴리뉴얼 {
             //loop course
             for (int c : course) {
                 int[] idx = new int[numMenus];
-                //setup indices for permutation
+                //setup 이분탐색.boj.getIndices for permutation
                 Arrays.fill(idx, numMenus - c, numMenus, 1);
 
                 int maxCnt = 0;

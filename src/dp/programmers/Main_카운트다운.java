@@ -6,12 +6,12 @@ public class Main_카운트다운 {
 
 	public static void main(String[] args) {
 
-//		System.out.println(Arrays.toString(new Solution().solution(21)));
-//		System.out.println(Arrays.toString(new Solution().solution(58)));
-//		System.out.println(Arrays.toString(new Solution().solution(120)));
-//		System.out.println(Arrays.toString(new Solution().solution(115)));
+//		System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(21)));
+//		System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(58)));
+//		System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(120)));
+//		System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(115)));
 		System.out.println(Arrays.toString(new Solution().solution(100000)));
-//		System.out.println(Arrays.toString(new Solution().solution(2022)));
+//		System.out.println(Arrays.toString(new 이분탐색.boj.Solution().solution(2022)));
 
 
 	}

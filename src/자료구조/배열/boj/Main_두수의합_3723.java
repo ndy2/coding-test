@@ -26,7 +26,7 @@ public class Main_두수의합_3723 {
 		for (int i = 0; i < bound; i++) {
 
 			answer += Arrays.binarySearch(numbers, x - numbers[i]) >= 0 ? 1 : 0;
-			System.out.println("answer = " + answer);
+			System.out.println("이분탐색.boj.getAnswer = " + answer);
 		}
 		System.out.print(answer/2);
 	}

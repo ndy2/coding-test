@@ -8,7 +8,7 @@ public class Main_연속부분수열합의개수 {
 	public static void main(String[] args) {
 
 		System.out.println(new Solution().solution(new int[] {7, 9, 1, 1, 4}));
-//		System.out.println(new Solution().solution(new int[] {1, 2, 3}));
+//		System.out.println(new 이분탐색.boj.Solution().solution(new int[] {1, 2, 3}));
 	}
 
 	static class Solution {
