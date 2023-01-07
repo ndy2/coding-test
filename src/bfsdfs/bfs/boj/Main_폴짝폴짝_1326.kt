@@ -7,6 +7,16 @@ import java.util.StringTokenizer
 
 fun main() {
 
+    class Info(
+        val idx: Int,
+        val cnt: Int,
+    ) : Comparable<Info> {
+
+        override fun compareTo(other: Info): Int {
+            return cnt - other.cnt;
+        }
+    }
+
     val br = BufferedReader(InputStreamReader(System.`in`))
     val n = br.readLine().toInt()
     val st = StringTokenizer(br.readLine())
@@ -57,12 +67,3 @@ fun main() {
     print(answer)
 }
 
-class Info(
-    val idx: Int,
-    val cnt: Int,
-) : Comparable<Info> {
-
-    override fun compareTo(other: Info): Int {
-        return cnt - other.cnt;
-    }
-}
