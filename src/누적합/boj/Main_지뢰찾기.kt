@@ -1,7 +1,9 @@
-var br = System.`in`.bufferedReader()
-var bw = System.out.bufferedWriter()
-fun getInt() = br.readLine().toInt()
-fun getIntList() = br.readLine().split(' ').map { it.toInt() }
+package 누적합.boj
+
+private var br = System.`in`.bufferedReader()
+private var bw = System.out.bufferedWriter()
+private fun getInt() = br.readLine().toInt()
+private fun getIntList() = br.readLine().split(' ').map { it.toInt() }
 
 fun main() {
     var map: Array<ShortArray>

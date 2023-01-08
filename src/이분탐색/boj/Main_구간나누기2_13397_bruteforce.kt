@@ -3,19 +3,19 @@ package 이분탐색.boj
 import java.lang.Integer.max
 import java.lang.Integer.min
 
-val br = System.`in`.bufferedReader()
-fun readIntArr(): IntArray {
+private val br = System.`in`.bufferedReader()
+private fun readIntArr(): IntArray {
     return br.readLine()
             .split(" ")
             .map { it.toInt() }
             .toIntArray()
 }
 
-lateinit var arr: IntArray
-lateinit var maxTree: IntArray
-lateinit var minTree: IntArray
-lateinit var nums: IntArray
-var answer = Int.MAX_VALUE
+private lateinit var arr: IntArray
+private lateinit var maxTree: IntArray
+private lateinit var minTree: IntArray
+private lateinit var nums: IntArray
+private var answer = Int.MAX_VALUE
 
 fun main() {
     val (n, m) = readIntArr()

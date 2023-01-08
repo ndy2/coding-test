@@ -1,6 +1,8 @@
-val br_1707 = System.`in`.bufferedReader()
-fun readInt() = br_1707.readLine().toInt()
-fun readIntArr() = br_1707.readLine().split(" ").map { it.toInt() }.toIntArray()
+package 그래프.boj
+
+private val br_1707 = System.`in`.bufferedReader()
+private fun readInt() = br_1707.readLine().toInt()
+private fun readIntArr() = br_1707.readLine().split(" ").map { it.toInt() }.toIntArray()
 
 lateinit var parent: IntArray
 
@@ -33,7 +35,7 @@ fun main() {
     }
 }
 
-fun union(a: Int, b: Int) {
+private fun union(a: Int, b: Int) {
     val pa = find(a)
     val pb = find(b)
 
@@ -42,7 +44,7 @@ fun union(a: Int, b: Int) {
     }
 }
 
-fun find(a: Int): Int {
+private fun find(a: Int): Int {
 
     return if (parent[a] == a) {
         a

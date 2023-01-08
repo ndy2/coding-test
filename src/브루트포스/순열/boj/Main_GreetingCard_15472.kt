@@ -5,14 +5,14 @@ import kotlin.math.sqrt
 
 typealias Coordinate = Pair<Double, Double>
 
-val br = System.`in`.bufferedReader()
-fun readInt() = br.readLine().toInt()
-fun readCoordinate(): Coordinate {
+private val br = System.`in`.bufferedReader()
+private fun readInt() = br.readLine().toInt()
+private fun readCoordinate(): Coordinate {
     val (y, x) = br.readLine().split(' ').map { it.toDouble() }
     return Coordinate(y, x)
 }
 
-fun dist(p1: Coordinate, p2: Coordinate): Int {
+private fun dist(p1: Coordinate, p2: Coordinate): Int {
     val (y1, x1) = p1
     val (y2, x2) = p2
 

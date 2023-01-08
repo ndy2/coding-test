@@ -3,14 +3,13 @@ package 이분탐색.boj
 import java.lang.Integer.max
 import java.lang.Integer.min
 
-/*
-val br = System.`in`.bufferedReader()
-fun readIntArr(): IntArray {
+private val br = System.`in`.bufferedReader()
+private fun readIntArr(): IntArray {
     return br.readLine()
             .split(" ")
             .map { it.toInt() }
             .toIntArray()
-}*/
+}
 
 fun main() {
     val (n, m) = readIntArr()
