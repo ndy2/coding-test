@@ -24,13 +24,13 @@ fun main() {
                     cur[1] -= 2 * p[i][1]
                 }
             }
-            answer = min(answer, norm(cur))
+            answer = min(answer, dist(cur))
         } while (nextPermutation(indices))
         println(answer)
     }
 }
 
-private fun norm(v: IntArray): Double {
+private fun dist(v: IntArray): Double {
     return sqrt((v[0]).toDouble().pow(2) + (v[1]).toDouble().pow(2))
 }
 

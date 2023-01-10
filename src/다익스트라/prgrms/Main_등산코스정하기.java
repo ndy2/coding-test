@@ -45,7 +45,7 @@ public class Main_등산코스정하기 {
 
 		public int[] solution(int n, int[][] paths, int[] gates, int[] summits) {
 
-			// pathMap[i] : i 번째 노드에서 이동 할 수 있는 Edge 의 목록
+			// pathMap[i] : i 번째 노드에서 이동 할 수 있는 그래프.MST.Edge 의 목록
 			List<Edge>[] pathsMap = new ArrayList[n + 1];
 			for (int v = 1; v <= n; v++) {
 				pathsMap[v] = new ArrayList<>();

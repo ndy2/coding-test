@@ -1,4 +1,4 @@
-package 정렬.programmers;
+package 이분탐색.boj.programmers;
 
 import java.util.Arrays;
 import static java.util.Comparator.naturalOrder;
