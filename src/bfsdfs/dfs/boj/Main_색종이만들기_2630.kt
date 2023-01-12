@@ -10,7 +10,7 @@ fun main() {
     println("$white\n$blue")
 }
 
-fun dfs(r: Int, c: Int, len: Int) {
+private fun dfs(r: Int, c: Int, len: Int) {
     if (len == 1) {
         if (map[r][c]) blue++ else white++
     } else {

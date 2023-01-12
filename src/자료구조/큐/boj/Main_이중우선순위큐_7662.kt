@@ -1,3 +1,5 @@
+package 자료구조.큐.boj
+
 import java.util.*
 
 

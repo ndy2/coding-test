@@ -1,4 +1,4 @@
-package 자료구조.스택
+package 자료구조.스택.boj
 
 import java.util.*
 
