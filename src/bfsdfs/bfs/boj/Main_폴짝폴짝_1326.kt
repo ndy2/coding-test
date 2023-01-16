@@ -6,7 +6,6 @@ import java.util.PriorityQueue
 import java.util.StringTokenizer
 
 fun main() {
-
     class Info(
         val idx: Int,
         val cnt: Int,

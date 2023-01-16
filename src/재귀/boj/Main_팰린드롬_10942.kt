@@ -1,5 +1,7 @@
-lateinit var check: Array<IntArray>
-lateinit var arr: IntArray
+package 재귀.boj
+
+private lateinit var check: Array<IntArray>
+private lateinit var arr: IntArray
 
 fun main() {
     val br = System.`in`.bufferedReader()

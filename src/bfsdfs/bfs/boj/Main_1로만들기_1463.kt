@@ -4,13 +4,13 @@ import java.util.PriorityQueue
 
 private val br = System.`in`.bufferedReader()
 
-private data class Info(
-    val cnt: Int,
-    val number: Int,
-)
 
 fun main() {
-
+    data class Info(
+        val cnt: Int,
+        val number: Int,
+    )
+    
     val n = br.readLine().toInt()
 
     val q = PriorityQueue(compareBy<Info> { it.cnt })
