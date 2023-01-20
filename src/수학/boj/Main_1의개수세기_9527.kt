@@ -1,3 +1,5 @@
+package 수학.boj
+
 private lateinit var dp: MutableMap<Pair<Long, Long>, Long>
 
 fun main() {
@@ -11,7 +13,7 @@ fun main() {
     println(dfs(a, b))
 }
 
-fun dfs(a: Long, b: Long): Long {
+private fun dfs(a: Long, b: Long): Long {
     if (dp.containsKey(Pair(a, b))) return dp[Pair(a, b)]!!
 
     val aBase = a.takeHighestOneBit()
