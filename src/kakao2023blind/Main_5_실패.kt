@@ -1,8 +1,6 @@
 package kakao2023blind
 
 fun main() {
-
-
     println(
         Solution().solution(
             arrayOf(
@@ -11,8 +9,6 @@ fun main() {
         ).contentToString()
     )
 }
-
-
 
 class Solution {
 
