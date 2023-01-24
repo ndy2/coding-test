@@ -8,7 +8,6 @@ import java.util.Queue;
 
 public class Main_알고스팟_1261 {
 
-
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -55,7 +54,7 @@ public class Main_알고스팟_1261 {
 		System.out.print(answer);
 	}
 
-	static class Info implements Comparable<Info> {
+	private static class Info implements Comparable<Info> {
 		int r, c, cnt;
 
 		Info(int r, int c, int cnt) {

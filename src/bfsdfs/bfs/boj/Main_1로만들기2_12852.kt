@@ -15,7 +15,6 @@ fun main() {
         return result
     }
 
-
     val br = System.`in`.bufferedReader()
     val n = br.readLine().toInt()
 
