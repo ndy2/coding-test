@@ -1,5 +1,7 @@
 import kotlin.math.pow
 
+private const val INF = 1_000_000_000
+
 private var n = 0
 private lateinit var map: List<List<Int>>
 private lateinit var dp: List<MutableList<Int>>
@@ -11,31 +13,32 @@ fun main() {
 
     map = buildList(n) {
         for (r in 0..n - 1) {
-            this.add(br.readLine().split(" ").map { it.toInt() })
+            this.add(br.readLine().split(" ").map {
+                val cost = it.toInt()
+                if (cost == 0) INF else cost
+            })
         }
     }
 
-    //dp[bit][to]
+    //dp[bit][cur]
     dp = List(1.shl(n)) { MutableList(n) { 0 } }
 
     val bit = 2.0.pow(n).toInt() - 2
-    println(getAndSetDp(0, bit, 0))
+    println(getAndSetDp(0, bit))
 }
 
-private fun getAndSetDp(from: Int, bit: Int, to: Int): Int {
-    if (bit == 0) {
-        return map[from][to]
-    }
+private fun getAndSetDp(cur: Int, bit: Int): Int {
+    if (dp[bit][cur] != 0) return dp[bit][cur]
+    if (bit == 0) return map[cur][0]
 
     val buildList = buildList {
         for (b in getBitIndices(bit)) {
             val nb = bit.and((1.shl(b)).inv())
-            add(map[from][b] + getAndSetDp(b, nb, to))
+            add(map[cur][b] + getAndSetDp(b, nb))
         }
     }
-
     val result = buildList.min()
-    dp[bit][to] = result
+    dp[bit][cur] = result
     return result
 }
 
