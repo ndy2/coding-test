@@ -1,8 +1,11 @@
+package 다익스트라.boj
+
 import java.util.PriorityQueue
 import kotlin.math.min
 
-private typealias Edge = Pair<Int, Int>
 private typealias Edges = HashMap<Int, Int>
+
+private data class Edge(val first: Int, val second: Int)
 
 fun main() {
 

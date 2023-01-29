@@ -65,17 +65,17 @@ private fun find(a: Int): Int {
 }
 
 
-data class Star(
+private data class Star(
         val x: Double,
         val y: Double,
 )
 
-data class Edge(
+private data class Edge(
         val a: Int,
         val b: Int,
         val w: Double,
 )
 
-fun dist(a: Star, b: Star): Double {
+private fun dist(a: Star, b: Star): Double {
     return sqrt((a.x - b.x).pow(2) + (a.y - b.y).pow(2))
 }
