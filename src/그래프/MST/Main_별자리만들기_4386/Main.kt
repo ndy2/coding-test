@@ -1,4 +1,4 @@
-package 그래프.MST
+package 그래프.MST.Main_별자리만들기_4386
 
 import java.util.PriorityQueue
 import kotlin.math.pow
@@ -66,14 +66,14 @@ private fun find(a: Int): Int {
 
 
 private data class Star(
-        val x: Double,
-        val y: Double,
+    val x: Double,
+    val y: Double,
 )
 
 private data class Edge(
-        val a: Int,
-        val b: Int,
-        val w: Double,
+    val a: Int,
+    val b: Int,
+    val w: Double,
 )
 
 private fun dist(a: Star, b: Star): Double {

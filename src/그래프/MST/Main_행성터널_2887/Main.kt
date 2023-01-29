@@ -1,3 +1,5 @@
+package 그래프.MST.Main_행성터널_2887
+
 private lateinit var parents: IntArray
 private lateinit var edges: MutableList<Edge>
 
@@ -10,7 +12,6 @@ private data class Point(val idx: Int, val value: Int) : Comparable<Point> {
 }
 
 fun main() {
-
 
     val br = System.`in`.bufferedReader()
     val n = br.readLine().toInt()
