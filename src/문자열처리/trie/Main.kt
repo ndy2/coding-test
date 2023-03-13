@@ -7,7 +7,7 @@ fun main() {
 
     repeat(t) {
         val n = br.readLine().toInt()
-        val root = Node('r') // 'r' of root!
+        val root = Node_trie('r') // 'r' of root!
         repeat(n) { root.add(br.readLine(), 0) }
 
         val answer = if (root.dfs()) "NO" else "YES"
@@ -15,27 +15,27 @@ fun main() {
     }
 }
 
-private class Node(
+class Node_trie(
     val char: Char
 ) {
-    val children = Array<Node?>(10) { null }
+    val children = Array<Node_trie?>(10) { null }
     var isCompleted = false
 
     fun add(str: String, idx: Int) {
         val c = str[idx]
         val cIdx = c - '0'
 
-        val childNode = if (children[cIdx] == null) {
-            children[cIdx] = Node(c)
+        val childNodeTrie = if (children[cIdx] == null) {
+            children[cIdx] = Node_trie(c)
             children[cIdx]!!
         } else {
             children[cIdx]!!
         }
 
         if (idx == str.lastIndex) {
-            childNode.isCompleted = true
+            childNodeTrie.isCompleted = true
         } else {
-            childNode.add(str, idx + 1)
+            childNodeTrie.add(str, idx + 1)
         }
     }
 
